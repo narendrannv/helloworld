@@ -1,0 +1,57 @@
+#book_now{
+	width:320px;
+	height:360px;
+	background:#FFF;
+	border:1px solid #000;
+	border-top-left-radius:12px;
+	border-top-right-radius:12px;
+	box-shadow:5px 5px 5px #888888;
+	font-size:14px;
+	font-family:Arial;
+	margin: 1% 0 0 15%;
+}
+
+/*Booking navigation*/
+#booking_nav ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	position:relative;box-shadow:0 3px 3px #888888;border-top-left-radius:12px;
+	border-top-right-radius:12px;
+}
+
+#booking_nav ul li{
+	display:inline-block;
+	width:65px;
+	height:45px;
+	text-align:center;
+	background:#909E13;	
+}
+
+#booking_nav ul li:first-child{
+	border-top-left-radius:10px;
+	width:68px;!important
+}
+
+#booking_nav ul li:last-child{
+	border-top-right-radius:10px;
+	width:57px;!important
+}
+
+#booking_nav ul li:hover{
+	background:#CCD66F;
+}
+
+#booking_nav ul li a, #booking_nav ul li a:visited{
+	color:#FFF;
+	display:block;
+	padding:2px;
+	padding-top:4px;
+	padding-bottom:4px;
+	text-decoration:none;
+}
+
+#booking_nav ul li a:hover{
+	color:#000;
+	text-decoration:none;
+}
